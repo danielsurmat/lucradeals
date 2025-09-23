@@ -4,19 +4,10 @@ import { productsArray } from "@/components/productArticleArray"
 import Link from "next/link"
 
 export const metadata = {
-	title: "Water Bottles Blog | Lucradeals",
+	title: "Water Bottles Blogs",
 	description:
 		"Read the latest articles on water bottles — stainless steel, insulated, eco-friendly, and hydration tips from Lucradeals.",
-	keywords: [
-		"water bottles",
-		"stainless steel bottles",
-		"insulated bottles",
-		"eco-friendly bottles",
-		"hydration tips",
-		"Lucradeals blog",
-		"best water bottles",
-	],
-	authors: [{ name: "Lucradeals team" }],
+	authors: [{ name: "Daniel Surmat" }],
 }
 
 

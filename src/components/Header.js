@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 const menuList = [
 	{
@@ -27,11 +28,15 @@ const Header = () => {
 		<header className="fixed top-0  w-full p-2 bg-slate-900 z-50">
 			<nav className="relative flex items-center justify-between">
 				<div className="text-xl md:text-2xl font-bold">
-					Lucra
-					<span className="font-[cursive] text-gray-300">Deals</span>
+					<Image
+						src={"/lucradeals-logo.png"}
+						width={150}
+						height={150}
+						alt="lucradeals logo"
+					/>
 				</div>
 				<button
-					className="lg:hidden"
+					className="lg:hidden cursor-pointer"
 					onClick={() => setIsMobileOpen(!mobileOpen)}
 				>
 					<img
@@ -42,21 +47,20 @@ const Header = () => {
 				</button>
 				{/* Mobile menu */}
 				<ul
-					className={`absolute top-9 -left-2 flex flex-col gap-6 bg-gray-800 
+					className={`absolute top-8 -left-2 flex flex-col gap-6 bg-gray-800 
 					text-gray-300 h-fit p-2 py-2 transition-all duration-300 ease-in-out rounded-br-xl ${
 						mobileOpen ? "block" : "hidden"
 					} lg:hidden`}
 				>
 					{menuList.map((li, i) => (
-						<li
+						<Link
 							key={i}
 							className="text-center hover:bg-slate-700 hover:text-gray-50  rounded-md px-6 py-2"
+							href={li.href}
 							onClick={() => setIsMobileOpen(false)}
 						>
-							<Link href={li.href}>
-								{li.title}
-							</Link>
-						</li>
+							{li.title}
+						</Link>
 					))}
 				</ul>
 

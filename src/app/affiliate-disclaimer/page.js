@@ -1,5 +1,9 @@
 import React from "react"
 
+export const metadata = {
+	title: "Affiliate disclaimer"
+}
+
 const page = () => {
 	return (
 		<div className=" items-center text-black  rounded-xl flex flex-col gap-4 md:max-w-4/5">

@@ -39,8 +39,10 @@ const Header = () => {
 					className="lg:hidden cursor-pointer"
 					onClick={() => setIsMobileOpen(!mobileOpen)}
 				>
-					<img
+					<Image
 						src={mobileOpen ? "/close.png" : "/menu.png"}
+						width={30}
+						height={30}
 						className="size-5"
 						alt=""
 					/>

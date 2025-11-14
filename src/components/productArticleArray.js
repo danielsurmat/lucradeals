@@ -1,6 +1,6 @@
 export const productsArray = [
 	{
-		name: "Owala Steel Water Bottle with Straw",
+		name: "Owala Water Bottle",
 		blogLink: "owala-water-bottle",
 		price: "29.98",
 		blogTitle: "",
@@ -15,7 +15,7 @@ export const productsArray = [
 			"24oz Insulated Stainless Steel Water Bottle – Keep drinks cold up to 24 hours with double-wall insulation. Features a FreeSip® spout for easy sipping or swigging, a push-button lid with lock, and a carry loop. Wide mouth for ice and cleaning. BPA, lead, and phthalate-free. Hand wash cup; dishwasher-safe lid. Not for hot liquids.",
 	},
 	{
-		name: "Modern Mesa Loop Water Bottle",
+		name: "Mesa Loop Water Bottle",
 		blogLink: "mesa-water-bottle",
 		price: "26.24",
 		blogTitle: "",
@@ -136,6 +136,21 @@ export const productsArray = [
 		aff_link: "https://amzn.to/45Lmayd",
 		descriptions:
 			"Upgrade your hydration with the 40oz Gradient Stainless Steel Travel Tumbler, designed for both style and performance. Its double-shade gradient finish adds a touch of elegance, while the double-wall insulation keeps drinks cold for up to 24 hours or hot for 12. The leak-proof, spill-resistant lid with included straw ensures mess-free sipping, and the slim base fits most car cup holders for easy travel. Made from eco-friendly, high-quality stainless steel, this tumbler is durable, reusable, and perfect for coffee, water, smoothies, or on-the-go adventures.",
+	},
+	{
+		name: "Owala FreeSip Steel Water Bottle",
+		blogLink: "owala-freesip-insulated-steel-water-bottle",
+		price: "29.99",
+		blogTitle: "Owala FreeSip Steel Water Bottle",
+		images: [
+			"https://m.media-amazon.com/images/I/41m8ejRAETL._AC_SL1080_.jpg",
+			"https://m.media-amazon.com/images/I/518eiDi4LQL._AC_SL1080_.jpg",
+			"https://m.media-amazon.com/images/I/51XnfXY8doL._AC_SL1080_.jpg",
+			"https://m.media-amazon.com/images/I/51QrLqixP3L._AC_SL1080_.jpg",
+		],
+		aff_link: "https://amzn.to/4i0ij4B",
+		descriptions:
+			"Keep drinks cold up to 24 hours with the patented FreeSip spout—sip upright through the straw or tilt to swig. Push-button lid with lock keeps spout clean, wide opening for ice, and cup-holder-friendly base. BPA-, lead-, and phthalate-free. Hand wash bottle; dishwasher-safe lid. Not for hot liquids.",
 	},
 	{
 		name: "Coldest 32oz Insulated Water Bottle",

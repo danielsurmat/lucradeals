@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Geist, Geist_Mono , Roboto , Poppins} from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 
@@ -12,7 +12,19 @@ const geistMono = Geist_Mono({
 	subsets: ["latin"],
 })
 
-// app/layout.js or app/page.js (if it's homepage)
+const roboto = Roboto({
+	variable: "--font-roboto",
+	subsets: ["latin"],
+	weight: ["400", "700"],
+})
+
+const poppins = Poppins({
+	variable: "--font-poppins",
+	subsets: ["latin"],
+	weight: ["400", "600", "700"],
+})
+
+
 export const metadata = {
 	title: {
 		default: "Best Water Bottles in 2025",
@@ -21,7 +33,7 @@ export const metadata = {
 	description:
 		"Shop the best water bottles. Stainless steel, insulated, leakproof, and eco-friendly designs. Stay hydrated with unbeatable deals today!",
 	icons: {
-		icon: "/lucradeals-favicon.png",
+		icon: "/favicon.png",
 	},
 	metadataBase: new URL("https://lucradeals.com"), // change to your domain
 	openGraph: {
@@ -43,11 +55,13 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body 
-				className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased !bg-gray-300 text-white`}
+				className={`${poppins.variable} ${roboto.variable} min-h-screen antialiased bg-white text-black`}
 			>
 				<Header />
 
-				<main className="pt-18 lg:pt-18 px-2 lg:px-4">{children}</main>
+				<main className="mt-15 text-black">
+					{children}
+				</main>
 			</body>
 		</html>
 	)

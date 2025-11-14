@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+    --font-robot: var(--font-roboto);
+    --font-poppins: var(--font-poppins);
+
+}
+
+@layer base {
+    h1 , h2 , h3 , h4 , h5 , h6 {
+        font-family: poppins;
+    }
+
+    p , button{
+        font-family: roboto;
+    }
+}

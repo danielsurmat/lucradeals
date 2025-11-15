@@ -8,7 +8,7 @@ const ProductGrid = ({ productsNo }) => {
     <div className='grid grid-cols-2 sm:grid-cols-4 gap-8'>
         {
           productsArray.slice(0, productsNo).map((product, index) => (
-            <div key={index} className="p-2 flex flex-col min-h-[300px]">
+            <div key={index} className="p-2 flex flex-col min-h-[300px] rounded-xl ring-1 ring-gray-300">
               <div className='relative flex-1'>
                 <Image
                   src={product.images[0]}

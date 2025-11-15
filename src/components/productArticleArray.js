@@ -1,9 +1,8 @@
 export const productsArray = [
 	{
 		name: "Owala Water Bottle",
-		blogLink: "owala-water-bottle",
+		slug: "owala-water-bottle",
 		price: "29.98",
-		blogTitle: "",
 		images: [
 			"https://m.media-amazon.com/images/I/41u-QiRRq4L._AC_SL1000_.jpg",
 			"https://m.media-amazon.com/images/I/61gD6tVCfxL._AC_SL1500_.jpg",
@@ -12,13 +11,14 @@ export const productsArray = [
 		],
 		aff_link: "https://amzn.to/3HcUokO",
 		descriptions:
-			"24oz Insulated Stainless Steel Water Bottle – Keep drinks cold up to 24 hours with double-wall insulation. Features a FreeSip® spout for easy sipping or swigging, a push-button lid with lock, and a carry loop. Wide mouth for ice and cleaning. BPA, lead, and phthalate-free. Hand wash cup; dishwasher-safe lid. Not for hot liquids.",
+			"24oz Insulated Stainless Steel Water Bottle  Keep drinks cold up to 24 hours with double-wall insulation. Features a FreeSip® spout for easy sipping or swigging, a push-button lid with lock, and a carry loop. Wide mouth for ice and cleaning. BPA, lead, and phthalate-free. Hand wash cup; dishwasher-safe lid. Not for hot liquids.",
+		category: "water bottle",
+		features: [],
 	},
 	{
 		name: "Mesa Loop Water Bottle",
-		blogLink: "mesa-water-bottle",
+		slug: "mesa-water-bottle",
 		price: "26.24",
-		blogTitle: "",
 		images: [
 			"https://m.media-amazon.com/images/I/61BiS2t1xML._AC_SL1500_.jpg",
 			"https://m.media-amazon.com/images/I/61K6vzT9wPL._AC_SL1500_.jpg",
@@ -28,12 +28,13 @@ export const productsArray = [
 		aff_link: "https://amzn.to/4mhD11t",
 		descriptions:
 			"Stay Hydrated Anywhere  This 24oz or 30oz water bottle fits most cupholders, making it perfect for daily commutes or road trips. Its folding loop handle offers easy grab-and-go convenience, while the contoured straw ensures smooth sipping. The Clean-Lock lid keeps drinks secure, and the silicone base prevents noisy landings. Dishwasher safe for hassle-free cleaning",
+		category: "water bottle",
+		features: [],
 	},
 	{
-		name: "STANLEY Quencher",
-		blogLink: "flowers-floral-water-bottle",
+		name: "Stanley Quencher",
+		slug: "flowers-floral-water-bottle",
 		price: "35.00",
-		blogTitle: "Stanley Quencher H2.0 Tumbler – Leakproof & Eco-Friendly",
 		images: [
 			"https://m.media-amazon.com/images/I/51zzngj1AbL._AC_SL1500_.jpg",
 			"https://m.media-amazon.com/images/I/51oKtHeMiLL._AC_SL1500_.jpg",
@@ -63,7 +64,7 @@ export const productsArray = [
 		name: "HydroJug Kids - Sport water Bottle",
 		blogLink: "hydrojug-kids-water-bottle",
 		price: "24.99",
-		blogTitle: "Kids HydroJug – Spillproof, Fun, and Perfect for School",
+		blogTitle: "Kids HydroJug Spillproof, Fun, and Perfect for School",
 		images: [
 			"https://m.media-amazon.com/images/I/41dUTMOcacL._AC_SL1000_.jpg",
 			"https://m.media-amazon.com/images/I/61IMRBYc-sL._AC_SL1000_.jpg",
@@ -168,4 +169,12 @@ export const productsArray = [
 		descriptions:
 			"The Coldest Insulated Water Bottle with Straw Lid is designed for those who demand durability, style, and performance. Made with 18/8 stainless steel and advanced vacuum insulation, it keeps drinks cold for 36+ hours or hot for 13+. Its never-sweat exterior ensures a comfortable grip, while the 100% leakproof design gives you peace of mind on the go. With a wide mouth for easy cleaning, multiple sizes and colors, and a sleek design that fits 99% of cup holders, this reusable bottle is perfect for work, sports, travel, or daily hydration.",
 	},
+]
+
+export const Hero_Section_Bottle = [
+
+]
+
+export const Audience_Segements_Bottle = [
+	
 ]

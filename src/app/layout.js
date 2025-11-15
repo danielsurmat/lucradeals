@@ -28,7 +28,7 @@ const poppins = Poppins({
 export const metadata = {
 	title: {
 		default: "Best Water Bottles in 2025",
-		template: "%s - Best Water Bottles in 2025",
+		template: "",
 	},
 	description:
 		"Shop the best water bottles. Stainless steel, insulated, leakproof, and eco-friendly designs. Stay hydrated with unbeatable deals today!",

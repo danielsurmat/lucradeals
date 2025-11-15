@@ -43,10 +43,10 @@ const Hero = () => {
 				<section className="flex-1 flex justify-center items-center">
 					<div className="w-64 sm:w-80 md:w-96 lg:w-[350px] h-auto">
 						<Image
-							src="/hero-image.png"
+							src="/hero-image-bottle.png"
 							alt="Owala water bottle"
-							width={350} // max width for large screens
-							height={350} // approximate height for aspect ratio
+							width={350} 
+							height={350}  
 							style={{
 								width: "100%",
 								height: "auto",

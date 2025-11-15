@@ -34,7 +34,7 @@ const Header = () => {
 				</ul>
 
 				<Link href="/">
-					<Image src="/logo.png" alt="Logo" width={55} height={55} />
+					<Image src="/water-logo.png" alt="Logo" width={55} height={55} />
 				</Link>
 
 				<Link

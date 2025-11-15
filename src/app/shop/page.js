@@ -3,7 +3,7 @@ import { useState } from "react"
 import ProductGrid from "@/components/ProductGrid"
 import { productsArray } from "@/components/productArticleArray"
 
-const page = () => {
+const Page = () => {
 	const [category, selectCategory] = useState("all")
 	const categories = [
 		"all",
@@ -39,4 +39,4 @@ const page = () => {
 	)
 }
 
-export default page
+export default Page

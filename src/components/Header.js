@@ -34,7 +34,13 @@ const Header = () => {
 				</ul>
 
 				<Link href="/">
-					<Image src="/water-logo.png" alt="Logo" width={55} height={55} />
+					<Image
+						src="/water-logo.png"
+						alt="Logo"
+						width={55}
+						height={55}
+						className="w-14 h-14 sm:w-14 sm:h-14"
+					/>
 				</Link>
 
 				<Link

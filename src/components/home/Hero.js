@@ -2,6 +2,8 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 
+import { Hero_Section_Bottle } from "../productArticleArray"
+
 const Hero = () => {
 	return (
 		<article
@@ -26,9 +28,11 @@ const Hero = () => {
 					</p>
 
 					<div className="flex gap-6 mt-1 sm:mt-4">
-						<Link href="https://amzn.to/3XrFlYH" target="_blank">
+						<Link
+							href={`/shop/${Hero_Section_Bottle.slug}`}
+						>
 							<button className="bg-slate-950 px-6 py-3  rounded-lg text-white font-semibold w-fit pointer-events-none">
-								Get Now
+								Shop Now
 							</button>
 						</Link>
 						<Link href="/shop">
@@ -45,8 +49,8 @@ const Hero = () => {
 						<Image
 							src="/hero-image-bottle.png"
 							alt="Owala water bottle"
-							width={350} 
-							height={350}  
+							width={350}
+							height={350}
 							style={{
 								width: "100%",
 								height: "auto",

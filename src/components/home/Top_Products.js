@@ -10,7 +10,7 @@ const Top_Products = () => {
 		</div>
 
 		<div className='mt-8'>
-			<ProductGrid productsNo={4} />
+			<ProductGrid productsNo={5} />
 		</div>
 	</article>
   )

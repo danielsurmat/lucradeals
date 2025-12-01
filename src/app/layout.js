@@ -47,9 +47,11 @@ export const metadata = {
 	},
 
 	other: {
-		"impact-site-verification": "e70fa6dc-d47b-408f-a7d7-778d3deac641",
+		"impact-site-verification": "607883e8-e760-4557-8c61-bb6242e7ec4c",
 	},
 }
+
+// <meta name='impact-site-verification' value='607883e8-e760-4557-8c61-bb6242e7ec4c'>
 
 export default function RootLayout({ children }) {
 	return (
